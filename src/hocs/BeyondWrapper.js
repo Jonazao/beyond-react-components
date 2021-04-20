@@ -121,6 +121,7 @@ import {
   faSignOutAlt,
   faLink,
 } from '@fortawesome/free-solid-svg-icons';
+
 library.add(
   far,
   faSquare,
@@ -159,7 +160,7 @@ library.add(
   faFileCode,
   faFileAlt,
   faEye,
-  faChartBar
+  faChartBar,
 );
 library.add(
   fab,
@@ -175,7 +176,7 @@ library.add(
   faDiscord,
   faSlack,
   faDribbble,
-  faGithub
+  faGithub,
 );
 library.add(
   fas,
@@ -241,11 +242,9 @@ library.add(
   faArrowLeft,
   faStar,
   faSignOutAlt,
-  faLink
+  faLink,
 );
 
-const BeyondWrapper = ({ children }) => {
-  return children || null;
-};
+const BeyondWrapper = ({ children }) => children || null;
 
 export default BeyondWrapper;

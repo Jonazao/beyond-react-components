@@ -1,1 +1,5 @@
-export { BeyondButton as Button } from './BeyondButton';
+import { Requirements as Button } from './BeyondButton';
+
+export default {
+  Button,
+};
