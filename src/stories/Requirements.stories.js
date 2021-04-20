@@ -1,10 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import { Requirements } from '../components/Requirements';
 
-const stories = storiesOf('App Test', module);
+const stories = storiesOf('Requeriments', module);
 
-stories.add('App', () => {
+stories.add('Default', () => {
   return <Requirements />;
 });
