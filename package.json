@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "publish": "npm publish"
   },
   "eslintConfig": {
     "extends": [
@@ -30,9 +31,9 @@
     "@material-ui/icons": "^4.11.2",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@storybook/addon-actions": "^6.1.21",
-    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.1.21",
-    "@storybook/react": "^6.1.21",
+    "@storybook/react": "^6.2.9",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "eslint": "^7.24.0",
@@ -58,11 +59,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "prop-types": "^15.7.2"
+    "@material-ui/icons": "^4.11.2"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
+    "clsx": "^1.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
